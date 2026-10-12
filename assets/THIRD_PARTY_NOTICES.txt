@@ -1,0 +1,19 @@
+Layout reference: https://thashim.github.io/
+Public source: https://github.com/thashim/thashim.github.io
+Original template: https://github.com/msaveski/www_personal (Martin Saveski)
+
+The page structure, custom styling, and JavaScript were implemented for this static homepage
+using the reference's measured dimensions and visible section order.
+
+Skeleton 2.0.4, Dave Gamache, MIT license.
+normalize.css 3.0.2, MIT license.
+The local vendor styles retain their source headers.
+See assets/vendor/LICENSE-Skeleton.txt and assets/vendor/LICENSE-normalize.txt for the MIT licenses.
+
+Raleway: font files served by Google Fonts, SIL Open Font License 1.1.
+See assets/fonts/OFL-Raleway.txt.
+
+Font Awesome 4.7.0 font: Copyright Dave Gandy 2016. All rights reserved.
+SIL Open Font License 1.1. See assets/fonts/OFL-FontAwesome.txt.
+Source: https://github.com/FortAwesome/Font-Awesome/tree/v4.7.0
+The Font Awesome CSS/JavaScript is not included.
