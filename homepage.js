@@ -33,31 +33,6 @@
     });
   });
 
-  const wechatDialog = document.querySelector("#wechat-dialog");
-  let wechatOpener = null;
-
-  document.querySelectorAll("[data-open-wechat]").forEach(button => {
-    button.addEventListener("click", () => {
-      wechatOpener = button;
-      wechatDialog.showModal();
-      document.body.classList.add("has-open-dialog");
-    });
-  });
-
-  document.querySelector(".wechat-close").addEventListener("click", () => wechatDialog.close());
-  wechatDialog.addEventListener("click", event => {
-    const bounds = wechatDialog.getBoundingClientRect();
-    if (event.target === wechatDialog &&
-        (event.clientX < bounds.left || event.clientX > bounds.right ||
-         event.clientY < bounds.top || event.clientY > bounds.bottom)) {
-      wechatDialog.close();
-    }
-  });
-  wechatDialog.addEventListener("close", () => {
-    document.body.classList.remove("has-open-dialog");
-    wechatOpener?.focus();
-  });
-
   const navbar = document.querySelector(".navbar");
   const desktop = window.matchMedia("(min-width: 750px)");
   let navTop = 0;

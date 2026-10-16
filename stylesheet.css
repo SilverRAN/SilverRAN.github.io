@@ -49,25 +49,9 @@ body { background: #fff; }
   transform: scale(1.5);
   transform-origin: 60% 30%;
 }
-.email-link { color: inherit; text-decoration: none; }
 .social-links { display: flex; align-items: center; gap: 14px; }
 .social-links a { color: inherit; text-decoration: none; }
 .footer .social-links { justify-content: center; }
-.social-links .wechat-trigger {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  height: auto;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  background: none;
-  color: inherit;
-  font-size: inherit;
-  line-height: 1;
-  letter-spacing: normal;
-  text-transform: none;
-}
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 "FontAwesome";
@@ -75,45 +59,6 @@ body { background: #fff; }
   -webkit-font-smoothing: antialiased;
 }
 .main-description .fa { font-size: 22px; margin-top: 5px; }
-.has-open-dialog { overflow: hidden; }
-.wechat-dialog {
-  box-sizing: border-box;
-  width: 360px;
-  max-width: calc(100vw - 32px);
-  max-height: calc(100dvh - 32px);
-  padding: 24px;
-  border: 1px solid #eee;
-  border-radius: 8px;
-  background: #fff;
-  color: #222;
-  text-align: center;
-  box-shadow: 0 12px 50px rgba(0, 0, 0, .2);
-  overflow: auto;
-}
-.wechat-dialog::backdrop { background: rgba(0, 0, 0, .45); }
-.wechat-dialog h2 { margin-bottom: 8px; font-size: 24px; line-height: 1.2; }
-.wechat-dialog p { margin-bottom: 12px; font-size: 14px; line-height: 1.4; }
-.wechat-dialog img {
-  display: block;
-  width: 100%;
-  height: auto;
-  max-height: calc(100dvh - 180px);
-  object-fit: contain;
-  margin: 0 auto;
-}
-.wechat-close {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  width: 32px;
-  height: 32px;
-  padding: 0;
-  margin: 0;
-  border: 0;
-  color: #555;
-  font-size: 24px;
-  line-height: 32px;
-}
 .placeholder { color: #666; font-style: italic; }
 .resource-placeholder { color: #777; cursor: default; }
 .resource-placeholder:hover { color: #777; border-color: #bbb; }
